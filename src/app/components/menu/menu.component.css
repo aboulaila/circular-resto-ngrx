@@ -1,9 +1,9 @@
 .menu h3{
+    background-color: #eee;
     text-align: center;
     margin-bottom: 25px;
-    border: 2px solid #909090;
-    border-radius: 5px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .tiles{

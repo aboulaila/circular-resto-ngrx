@@ -1,41 +1,43 @@
   button {
-    color: #607D8B;
+    color: #2b2b2b;
     padding: 5px 10px;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
     background-color: #eee;
     border: none;
-    border-radius: 4px;
+    border-right: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-radius: 5px;
     cursor: pointer;
   }
   button:hover {
-    color: #039be5;
+    color: #2b2b2b;
     background-color: #CFD8DC;
   }
   button:visited, button:link {
-    color: #607D8B;
+    color: #2b2b2b;
   }
   button:active{
-    color: #039be5;
+    color: #2b2b2b;
   }
   .price {
+    background-color: #ababab;
     padding: 10px;
     margin: 1px;
-    background-color: #66d04c;
     border-radius: 5px;
 }
 
 .ingredients {
+  background-color: #cecece;
     padding: 10px;
     margin: 1px;
-    background-color: #ff4d4d;
     border-radius: 5px;
 }
 
 h2 {
+    background-color: #949494;
     padding: 10px;
     margin: 1px;
-    border: 2px solid #909090;
     border-radius: 5px;
 }
