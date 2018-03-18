@@ -1,0 +1,10 @@
+<div class="row menu-item" *ngIf="item">
+  <div class="col-md-12">
+    <span class="menu-item-title">
+        {{item.title}}
+    </span>
+    <span class="menu-item-price">
+        {{item.price | currency: item.currency}}
+    </span>
+  </div>
+</div>

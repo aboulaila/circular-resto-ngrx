@@ -1,0 +1,19 @@
+.menu-item{
+    background-color: #eee;
+    margin: -10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-item span {
+    text-align: center;
+}
+
+.menu-item .menu-item-title {
+    font-size: 1.2em;
+    font-weight: bold;    
+}
+
+.menu-item .menu-item-price {
+    font-size: 0.9em;
+}

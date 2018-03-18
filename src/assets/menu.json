@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Chicken C",
+        "ingredients": "3 grilled chicken breasts served with coleslaw salad, corn & french fries",
+        "price": 18500,
+        "currency": "LBP"
+    },
+    {
+        "id": 2,
+        "title": "Steak C",
+        "ingredients": "Grilled beef filet served with corn, coleslaw salad",
+        "price": 18500,
+        "currency": "LBP"
+    },
+    {
+        "id": 3,
+        "title": "Capital C",
+        "ingredients": "Grilled chicken breast, beef filet, frankfurter served with corn, coleslaw salad",
+        "price": 20000,
+        "currency": "LBP"
+    },
+    {
+        "id": 4,
+        "title": "The Catch",
+        "ingredients": "Battered tempura fish with calamari rings, coleslaw salad, french fries & tartar sauce",
+        "price": 17500,
+        "currency": "LBP"
+    },
+    {
+        "id": 5,
+        "title": "Good Old C",
+        "ingredients": "Grilled Chicken breasts served with creamy sauce and steamed vegetables",
+        "price": 19000,
+        "currency": "LBP"
+    },
+    {
+        "id": 6,
+        "title": "Beef C",
+        "ingredients": "220 grs. Of grilled prime beef filet with wedge potatoes, steamed broccoli carrots & mushroom",
+        "price": 25500,
+        "currency": "LBP"
+    }
+]

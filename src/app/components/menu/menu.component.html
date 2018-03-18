@@ -1,0 +1,11 @@
+<div class="row menu">
+  <div class="col-md-12">
+    <h3>Menu</h3>
+    <div class="row tiles" *ngIf="menuState$ | async as menuState">
+      <div class="col-md-12 loading" *ngIf="menuState.loading">loading...</div>
+      <div class="col-md-2 item-tile" *ngFor="let item of menuState.items">
+        <circular-menu-item [item]="item" routerLink="/detail/{{item.id}}"></circular-menu-item>
+      </div>
+    </div>
+  </div>
+</div>

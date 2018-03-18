@@ -1,0 +1,16 @@
+<div class="row" *ngIf="items$ | async as items">
+  <div class="col-md-6 offset-md-3" *ngFor="let item of items.items">
+    <div *ngIf="item">
+      <h2>{{item.title | uppercase }}</h2>
+      <div class="price">
+        <b>Price: </b>
+        {{item.price | currency: item.currency}}
+      </div>
+      <div class="ingredients">
+        <b>Ingredients: </b>
+        <p>{{item.ingredients}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<button (click)="goBack()">Back</button>
